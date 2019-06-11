@@ -1,4 +1,4 @@
-{% set version = '1.8.10' %}
+{% set version = "1.8.11" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/extraDistr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/extraDistr/extraDistr_{{ version }}.tar.gz
-  sha256: 48d400b089d6d54ad0afcbab039b4e78ae8350c599fce86b992a8eb5cac59b02
+  sha256: 83b205d9f8fe11515a8b25e6410ff258e361e08d8ba15a5f114075485ad878ef
 
 build:
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
