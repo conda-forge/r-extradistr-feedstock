@@ -1,4 +1,4 @@
-{% set version = "1.8.11" %}
+{% set version = "1.9.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/extraDistr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/extraDistr/extraDistr_{{ version }}.tar.gz
-  sha256: 83b205d9f8fe11515a8b25e6410ff258e361e08d8ba15a5f114075485ad878ef
+  sha256: 9990348c4dbc611684fcb58ab8db7e856dfde1c9c86ffb7705f4b3dff6b2d7bf
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -46,21 +46,12 @@ test:
 about:
   home: https://github.com/twolodzko/extraDistr
   license: GPL-2
-  summary: 'Density, distribution function, quantile function and random generation for a number
-    of univariate and multivariate distributions. This package implements the following
-    distributions: Bernoulli, beta-binomial, beta-negative binomial, beta prime, Bhattacharjee,
-    Birnbaum-Saunders, bivariate normal, bivariate Poisson, categorical, Dirichlet,
-    Dirichlet-multinomial, discrete gamma, discrete Laplace, discrete normal, discrete
-    uniform, discrete Weibull, Frechet, gamma-Poisson, generalized extreme value, Gompertz,
-    generalized Pareto, Gumbel, half-Cauchy, half-normal, half-t, Huber density, inverse
-    chi-squared, inverse-gamma, Kumaraswamy, Laplace, location-scale t, logarithmic,
-    Lomax, multivariate hypergeometric, multinomial, negative hypergeometric,  non-standard
-    beta, normal mixture, Poisson mixture, Pareto, power, reparametrized beta, Rayleigh,
-    shifted Gompertz, Skellam, slash, triangular, truncated binomial, truncated normal,
-    truncated Poisson, Tukey lambda, Wald, zero-inflated binomial, zero-inflated negative
-    binomial, zero-inflated Poisson.'
+  summary: 'Density, distribution function, quantile function and random generation for a number of univariate and multivariate distributions. This package implements the following distributions: Bernoulli, beta-binomial, beta-negative binomial, beta prime, Bhattacharjee, Birnbaum-Saunders, bivariate normal, bivariate Poisson,
+    categorical, Dirichlet, Dirichlet-multinomial, discrete gamma, discrete Laplace, discrete normal, discrete uniform, discrete Weibull, Frechet, gamma-Poisson, generalized extreme value, Gompertz, generalized Pareto, Gumbel, half-Cauchy, half-normal, half-t, Huber density, inverse chi-squared, inverse-gamma, Kumaraswamy,
+    Laplace, location-scale t, logarithmic, Lomax, multivariate hypergeometric, multinomial, negative hypergeometric,  non-standard beta, normal mixture, Poisson mixture, Pareto, power, reparametrized beta, Rayleigh, shifted Gompertz, Skellam, slash, triangular, truncated binomial, truncated normal, truncated Poisson, Tukey
+    lambda, Wald, zero-inflated binomial, zero-inflated negative binomial, zero-inflated Poisson.'
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
