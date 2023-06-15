@@ -1,11 +1,22 @@
+About r-extradistr-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-extradistr-feedstock/blob/main/LICENSE.txt)
+
 About r-extradistr
-==================
+------------------
 
 Home: https://github.com/twolodzko/extraDistr
 
 Package license: GPL-2
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-extradistr-feedstock/blob/main/LICENSE.txt)
+Summary: Density, distribution function, quantile function and random generation for a number of univariate and multivariate distributions. This package implements the following distributions: Bernoulli, beta-binomial, beta-negative binomial, beta prime, Bhattacharjee, Birnbaum-Saunders, bivariate normal, bivariate Poisson, categorical, Dirichlet, Dirichlet-multinomial, discrete gamma, discrete Laplace, discrete normal, discrete uniform, discrete Weibull, Frechet, gamma-Poisson, generalized extreme value, Gompertz, generalized Pareto, Gumbel, half-Cauchy, half-normal, half-t, Huber density, inverse chi-squared, inverse-gamma, Kumaraswamy, Laplace, location-scale t, logarithmic, Lomax, multivariate hypergeometric, multinomial, negative hypergeometric,  non-standard beta, normal mixture, Poisson mixture, Pareto, power, reparametrized beta, Rayleigh, shifted Gompertz, Skellam, slash, triangular, truncated binomial, truncated normal, truncated Poisson, Tukey lambda, Wald, zero-inflated binomial, zero-inflated negative binomial, zero-inflated Poisson.
+About r-extradistr
+------------------
+
+Home: https://github.com/twolodzko/extraDistr
+
+Package license: GPL-2
 
 Summary: Density, distribution function, quantile function and random generation for a number of univariate and multivariate distributions. This package implements the following distributions: Bernoulli, beta-binomial, beta-negative binomial, beta prime, Bhattacharjee, Birnbaum-Saunders, bivariate normal, bivariate Poisson, categorical, Dirichlet, Dirichlet-multinomial, discrete gamma, discrete Laplace, discrete normal, discrete uniform, discrete Weibull, Frechet, gamma-Poisson, generalized extreme value, Gompertz, generalized Pareto, Gumbel, half-Cauchy, half-normal, half-t, Huber density, inverse chi-squared, inverse-gamma, Kumaraswamy, Laplace, location-scale t, logarithmic, Lomax, multivariate hypergeometric, multinomial, negative hypergeometric,  non-standard beta, normal mixture, Poisson mixture, Pareto, power, reparametrized beta, Rayleigh, shifted Gompertz, Skellam, slash, triangular, truncated binomial, truncated normal, truncated Poisson, Tukey lambda, Wald, zero-inflated binomial, zero-inflated negative binomial, zero-inflated Poisson.
 
@@ -27,38 +38,38 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2394&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2394&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2394&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2394&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2394&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2394&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-extradistr-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
