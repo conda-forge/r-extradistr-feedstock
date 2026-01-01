@@ -1,4 +1,4 @@
-{% set version = "1.10.0" %}
+{% set version = "1.10.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/extraDistr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/extraDistr/extraDistr_{{ version }}.tar.gz
-  sha256: f4264a6c2c95bb7a865655b0e84f48e30dcd584498b49d626a71adaec8eda3a9
+  sha256: b55feaddb5f5d47d7842977271a03eb881306fc03564146116c09c3810832074
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
