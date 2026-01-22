@@ -26,8 +26,8 @@ requirements:
     - {{ compiler('c') }}              # [not win]
     - {{ stdlib('c') }}                # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
+    - {{ stdlib('m2w64_c') }}          # [not win]
     - {{ compiler('cxx') }}            # [not win]
-    - {{ stdlib('cxx') }}              # [not win]
     - {{ compiler('m2w64_cxx') }}      # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
